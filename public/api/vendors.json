@@ -12,7 +12,8 @@
         "description": "Fried chicken with rice and sambal",
         "price": 7.5,
         "category": "Rice",
-        "available": true
+        "available": true,
+        "rating": 5
       },
       {
         "id": "mar-2",
@@ -20,7 +21,8 @@
         "description": "Rice with Ayam Masak Merah and Mixed Vegetables ",
         "price": 7.5,
         "category": "Rice",
-        "available": true
+        "available": true,
+        "rating": 4
       },
       {
         "id": "mar-3",
@@ -28,7 +30,8 @@
         "description": "Pasta with tomato sauce and parmesan cheese",
         "price": 6,
         "category": "Western",
-        "available": false
+        "available": false,
+        "rating": 4
       },
       {
         "id": "mar-4",
@@ -36,7 +39,8 @@
         "description": "Crispy chicken Burger served with French Fries",
         "price": 6,
         "category": "Western",
-        "available": true
+        "available": true,
+        "rating": 4.5
       },
       {
         "id": "mar-5",
@@ -44,7 +48,8 @@
         "description": "Mini donuts of 3 different flavors",
         "price": 4,
         "category": "Dessert",
-        "available": true
+        "available": true,
+        "rating": 3
       },
       {
         "id": "mar-6",
@@ -52,7 +57,8 @@
         "description": "Crispy Waffle with Nutella spread",
         "price": 3,
         "category": "Dessert",
-        "available": true
+        "available": true,
+        "rating": 4
       },
       {
         "id": "mar-7",
@@ -60,7 +66,8 @@
         "description": "Freshly squeezed watermelon juice drink",
         "price": 3,
         "category": "Drinks",
-        "available": false
+        "available": false,
+        "rating": 4
       },
       {
         "id": "mar-8",
@@ -68,7 +75,8 @@
         "description": "Chocolate drink with Hazelnut Drizzle",
         "price": 3,
         "category": "Drinks",
-        "available": true
+        "available": true,
+        "rating": 5
       }
     ]
   },
@@ -85,7 +93,8 @@
         "description": "Smashed fried chicken with rice and sambal",
         "price": 9,
         "category": "Rice",
-        "available": true
+        "available": true,
+        "rating": 5
       },
       {
         "id": "ami-3",
@@ -93,7 +102,8 @@
         "description": "Rose Syrup with milk ",
         "price": 3,
         "category": "Drinks",
-        "available": true
+        "available": true,
+        "rating": 3
       }
     ]
   },
@@ -111,7 +121,8 @@
         "description": "Mini pancakes filled with crushed peanuts, sugar, and sweet corn.",
         "price": 3,
         "category": "Snacks",
-        "available": true
+        "available": true,
+        "rating": 3
       },
       {
         "id": "2414210-MENU02",
@@ -119,7 +130,8 @@
         "description": "Japanese-style rice triangles filled with seasoned chicken and wrapped in seaweed.",
         "price": 5,
         "category": "Rice Snacks",
-        "available": true
+        "available": true,
+        "rating": 4.5
       },
       {
         "id": "2414210-MENU03",
@@ -127,7 +139,8 @@
         "description": "A savoury pastry roll filled with sausage.",
         "price": 3.5,
         "category": "Bakery",
-        "available": true
+        "available": true,
+        "rating": 3.5
       },
       {
         "id": "2414210-MENU04",
@@ -135,7 +148,8 @@
         "description": "Crispy spring rolls with vegetables and savoury seasoning.",
         "price": 3,
         "category": "Local Snacks",
-        "available": false
+        "available": false,
+        "rating": 4
       },
       {
         "id": "2414210-MENU05",
@@ -143,7 +157,8 @@
         "description": "A soft chocolate muffin perfect for a quick snack.",
         "price": 3.5,
         "category": "Bakery",
-        "available": true
+        "available": true,
+        "rating": 3.5
       },
       {
         "id": "2414210-MENU06",
@@ -151,7 +166,8 @@
         "description": "A sandwich filled with tuna and fresh vegetables.",
         "price": 4.5,
         "category": "Sandwiches",
-        "available": true
+        "available": true,
+        "rating": 3
       },
       {
         "id": "2414210-MENU07",
@@ -159,7 +175,8 @@
         "description": "Golden and crispy fries served as a light snack.",
         "price": 4,
         "category": "Snacks",
-        "available": true
+        "available": true,
+        "rating": 5
       },
       {
         "id": "2414210-MENU08",
@@ -167,7 +184,8 @@
         "description": "A chilled chocolate drink.",
         "price": 4,
         "category": "Drinks",
-        "available": true
+        "available": true,
+        "rating": 4
       }
     ]
   }

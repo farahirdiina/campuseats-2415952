@@ -14,6 +14,7 @@ function App() {
 
   const [selectedVendorId, setSelectedVendorId] = useState(null);
   const selectedVendor = vendors.find((v) => v.id === selectedVendorId);
+  const [sortBy, setSortBy] = useState("default");
 
   const [cart, setCart] = useState([]);
   const [view, setView] = useState("menu");
@@ -69,6 +70,14 @@ function App() {
     });
   }
 
+  function sortMenu(items, sortBy) {
+    const copy = [...items];
+    if (sortBy === "price-asc") copy.sort((a, b) => a.price - b.price);
+    if (sortBy === "price-desc") copy.sort((a, b) => b.price - a.price);
+    if (sortBy === "popularity") copy.sort((a, b) => b.rating - a.rating);
+    return copy;
+  }
+
   function handleChangeQty(itemId, delta) {
     setCart((prev) =>
       prev
@@ -96,6 +105,9 @@ function App() {
     setView("done");
   }
 
+  const sortedMenu = selectedVendor
+    ? sortMenu(selectedVendor.menu, sortBy)
+    : [];
   let content;
 
   if (view === "cart") {
@@ -144,7 +156,20 @@ function App() {
         {selectedVendor && (
           <section>
             <h2 className="section-title">Menu: {selectedVendor.name}</h2>
-            <MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
+
+            <label htmlFor="sort">Sort by </label>
+            <select
+              id="sort"
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+            >
+              <option value="default">Default</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="popularity">Most Ordered</option>
+            </select>
+
+            <MenuList items={sortedMenu} onAdd={handleAddToCart} />
           </section>
         )}
       </>
