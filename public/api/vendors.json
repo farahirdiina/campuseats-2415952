@@ -1,13 +1,13 @@
 [
   {
-    "id": "kafe-maryam",
+    "id": "2415952-campusdiner",
     "name": "Campus Diner",
     "location": "Mahallah Maryam, Block A",
     "openHours": "7:00 am - 10:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "mar-1",
+        "id": "2415952-1",
         "name": "Nasi Ayam Gepuk",
         "description": "Fried chicken with rice and sambal",
         "price": 7.5,
@@ -16,7 +16,7 @@
         "rating": 5
       },
       {
-        "id": "mar-2",
+        "id": "2415952-2",
         "name": "Nasi Tomato",
         "description": "Rice with Ayam Masak Merah and Mixed Vegetables ",
         "price": 7.5,
@@ -25,7 +25,7 @@
         "rating": 4
       },
       {
-        "id": "mar-3",
+        "id": "2415952-3",
         "name": "Spaghetti Bolognese",
         "description": "Pasta with tomato sauce and parmesan cheese",
         "price": 6,
@@ -34,7 +34,7 @@
         "rating": 4
       },
       {
-        "id": "mar-4",
+        "id": "2415952-4",
         "name": "Crispy Burger",
         "description": "Crispy chicken Burger served with French Fries",
         "price": 6,
@@ -43,7 +43,7 @@
         "rating": 4.5
       },
       {
-        "id": "mar-5",
+        "id": "2415952-5",
         "name": "Donut Bites",
         "description": "Mini donuts of 3 different flavors",
         "price": 4,
@@ -52,7 +52,7 @@
         "rating": 3
       },
       {
-        "id": "mar-6",
+        "id": "2415952-6",
         "name": "Chocolate Waffle",
         "description": "Crispy Waffle with Nutella spread",
         "price": 3,
@@ -61,7 +61,7 @@
         "rating": 4
       },
       {
-        "id": "mar-7",
+        "id": "2415952-7",
         "name": "Watermelon Juice ",
         "description": "Freshly squeezed watermelon juice drink",
         "price": 3,
@@ -70,40 +70,13 @@
         "rating": 4
       },
       {
-        "id": "mar-8",
+        "id": "2415952-8",
         "name": "Iced Hazelnut Chocolate",
         "description": "Chocolate drink with Hazelnut Drizzle",
         "price": 3,
         "category": "Drinks",
         "available": true,
         "rating": 5
-      }
-    ]
-  },
-  {
-    "id": "kafe-aminah",
-    "name": "Kafe Aminah",
-    "location": "Mahallah Aminah, Ground Floor",
-    "openHours": "7:00 am - 10:00 pm",
-    "isOpen": true,
-    "menu": [
-      {
-        "id": "ami-1",
-        "name": "Nasi Ayam Penyet",
-        "description": "Smashed fried chicken with rice and sambal",
-        "price": 9,
-        "category": "Rice",
-        "available": true,
-        "rating": 5
-      },
-      {
-        "id": "ami-3",
-        "name": "   Air Bandung",
-        "description": "Rose Syrup with milk ",
-        "price": 3,
-        "category": "Drinks",
-        "available": true,
-        "rating": 3
       }
     ]
   },
@@ -186,6 +159,106 @@
         "category": "Drinks",
         "available": true,
         "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "2416464-dahls-ramen",
+    "name": "Dahl's Japanese Ramen",
+    "location": "Mahallah Asma, Block C",
+    "openHours": "11:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2416464-m1",
+        "name": "Spicy Tonkotsu Ramen",
+        "price": 15.0,
+        "category": "Ramen",
+        "popular": true,
+        "spice": 4
+      },
+      {
+        "id": "2416464-m2",
+        "name": "Shoyu Ramen",
+        "price": 13.0,
+        "category": "Ramen",
+        "popular": true,
+        "spice": 1
+      },
+      {
+        "id": "2416464-m3",
+        "name": "Miso Ramen",
+        "price": 14.0,
+        "category": "Ramen",
+        "popular": false,
+        "spice": 2
+      },
+      {
+        "id": "2416464-m4",
+        "name": "Gyoza (5 pcs)",
+        "price": 6.0,
+        "category": "Sides",
+        "popular": true,
+        "spice": 1
+      },
+      {
+        "id": "2416464-m5",
+        "name": "Karaage Chicken",
+        "price": 7.5,
+        "category": "Sides",
+        "popular": true,
+        "spice": 1
+      },
+      {
+        "id": "2416464-m6",
+        "name": "Matcha Strawberry",
+        "price": 5.5,
+        "category": "Drinks",
+        "popular": true,
+        "spice": 1
+      },
+      {
+        "id": "2416464-m7",
+        "name": "Japanese Lemonade",
+        "price": 4.0,
+        "category": "Drinks",
+        "popular": false,
+        "spice": 1
+      },
+      {
+        "id": "2416464-m8",
+        "name": "Green Tea",
+        "price": 2.0,
+        "category": "Drinks",
+        "popular": false,
+        "spice": 1
+      }
+    ]
+  },
+  {
+    "id": "kafe-aminah",
+    "name": "Kafe Aminah",
+    "location": "Mahallah Aminah, Ground Floor",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "ami-1",
+        "name": "Nasi Ayam Penyet",
+        "description": "Smashed fried chicken with rice and sambal",
+        "price": 9,
+        "category": "Rice",
+        "available": true,
+        "rating": 5
+      },
+      {
+        "id": "ami-3",
+        "name": "   Air Bandung",
+        "description": "Rose Syrup with milk ",
+        "price": 3,
+        "category": "Drinks",
+        "available": true,
+        "rating": 3
       }
     ]
   }

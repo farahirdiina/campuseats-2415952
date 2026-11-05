@@ -526,7 +526,7 @@ a.card:hover {
 .form select {
   padding: 0.5rem;
   border: 1px solid #c5cbd3;
-  borderradius: 8px;
+  border-radius: 8px;
   font: inherit;
 }
 .field-error {
@@ -536,4 +536,44 @@ a.card:hover {
 }
 .error {
   border-left: 4px solid #b3261e;
+}
+
+/* Vendor card fixes */
+.vendor-grid a,
+.container a:has(.card) {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.vendor-grid .card {
+  height: 100%; /* equal-height cards in each row */
+  border: 2px solid transparent;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.vendor-grid a:hover .card {
+  border-color: var(--green-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.vendor-card {
+  align-items: flex-start; /* thumb and text start at the same top line */
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+.vendor-card .thumb {
+  margin-bottom: 0;
+}
+.vendor-card h3 {
+  color: var(--green);
+  margin: 0 0 0.5rem;
+}
+.vendor-card .muted {
+  margin: 0 0 0.35rem;
+  line-height: 1.4;
+}
+.vendor-card .status {
+  margin-top: 0.5rem;
 }

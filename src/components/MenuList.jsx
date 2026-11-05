@@ -1,6 +1,9 @@
 import MenuItemCard from "./MenuItemCard.jsx";
+import useCart from "../hooks/useCart";
 
 function MenuList({ items, onAdd }) {
+  const { addToCart } = useCart();
+
   if (items.length === 0) {
     return <p className="muted">No items on this menu yet.</p>;
   }
