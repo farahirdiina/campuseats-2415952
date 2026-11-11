@@ -172,66 +172,74 @@
       {
         "id": "2416464-m1",
         "name": "Spicy Tonkotsu Ramen",
+        "description": "Rich pork-free broth with noodles and spicy seasoning.",
         "price": 15.0,
         "category": "Ramen",
-        "popular": true,
-        "spice": 4
+        "available": true,
+        "rating": 5
       },
       {
         "id": "2416464-m2",
         "name": "Shoyu Ramen",
+        "description": "Japanese soy sauce-based ramen with noodles.",
         "price": 13.0,
         "category": "Ramen",
-        "popular": true,
-        "spice": 1
+        "available": true,
+        "rating": 4.5
       },
       {
         "id": "2416464-m3",
         "name": "Miso Ramen",
+        "description": "Japanese miso-based ramen with noodles.",
         "price": 14.0,
         "category": "Ramen",
-        "popular": false,
-        "spice": 2
+        "available": true,
+        "rating": 4
       },
       {
         "id": "2416464-m4",
         "name": "Gyoza (5 pcs)",
+        "description": "Five Japanese dumplings served as a side dish.",
         "price": 6.0,
         "category": "Sides",
-        "popular": true,
-        "spice": 1
+        "available": true,
+        "rating": 4.5
       },
       {
         "id": "2416464-m5",
         "name": "Karaage Chicken",
+        "description": "Japanese-style crispy fried chicken.",
         "price": 7.5,
         "category": "Sides",
-        "popular": true,
-        "spice": 1
+        "available": true,
+        "rating": 4.5
       },
       {
         "id": "2416464-m6",
         "name": "Matcha Strawberry",
+        "description": "Refreshing matcha drink with strawberry flavour.",
         "price": 5.5,
         "category": "Drinks",
-        "popular": true,
-        "spice": 1
+        "available": true,
+        "rating": 5
       },
       {
         "id": "2416464-m7",
         "name": "Japanese Lemonade",
+        "description": "Refreshing Japanese-style lemonade.",
         "price": 4.0,
         "category": "Drinks",
-        "popular": false,
-        "spice": 1
+        "available": true,
+        "rating": 4
       },
       {
         "id": "2416464-m8",
         "name": "Green Tea",
+        "description": "Traditional Japanese green tea.",
         "price": 2.0,
         "category": "Drinks",
-        "popular": false,
-        "spice": 1
+        "available": true,
+        "rating": 4
       }
     ]
   },
