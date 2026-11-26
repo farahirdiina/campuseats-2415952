@@ -80,3 +80,7 @@ Tool(s): Claude
 - What I asked for: I asked ChatGPT to help troubleshoot errors in `CartProvider.jsx` that prevented my application from running properly.
 - What I kept, changed or rejected, and why: I used its explanations to check my imports, state declarations and context values.
 - One thing the AI got wrong and how I fixed it: I checked the browser console in Chrome and corrected the errors in my existing code rather than replacing the whole file with a new version.
+
+## Week 5 - AI Usage
+
+- None

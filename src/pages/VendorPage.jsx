@@ -37,6 +37,9 @@ function VendorPage() {
 
   return (
     <section>
+      <p>
+        <Link to="/">← All vendors</Link>
+      </p>
       <h2 className="section-title">Menu: {vendor.name}</h2>
 
       <label htmlFor="sort">Sort by </label>
